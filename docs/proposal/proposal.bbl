@@ -1,0 +1,34 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{AMAZ17}
+
+\bibitem[ACN{\etalchar{+}}20]{ahlawat2020improved}
+Savita Ahlawat, Amit Choudhary, Anand Nayyar, Saurabh Singh, and Byungun Yoon.
+\newblock Improved handwritten digit recognition using convolutional neural networks (cnn).
+\newblock {\em Sensors}, 20(12):3344, 2020.
+
+\bibitem[AMAZ17]{albawi2017understanding}
+Saad Albawi, Tareq~Abed Mohammed, and Saad Al-Zawi.
+\newblock Understanding of a convolutional neural network.
+\newblock In {\em 2017 international conference on engineering and technology (ICET)}, pages 1--6. Ieee, 2017.
+
+\bibitem[LWM20]{liu2020comparisions}
+Wenfei Liu, Jingcheng Wei, and Qingmin Meng.
+\newblock Comparisions on knn, svm, bp and the cnn for handwritten digit recognition.
+\newblock In {\em 2020 IEEE International Conference on Advances in Electrical Engineering and Computer Applications (AEECA)}, pages 587--590. IEEE, 2020.
+
+\bibitem[ON15]{o2015introduction}
+Keiron O'Shea and Ryan Nash.
+\newblock An introduction to convolutional neural networks.
+\newblock {\em arXiv preprint arXiv:1511.08458}, 2015.
+
+\bibitem[PDK21]{pashine2021handwritten}
+Samay Pashine, Ritik Dixit, and Rishika Kushwah.
+\newblock Handwritten digit recognition using machine and deep learning algorithms.
+\newblock {\em arXiv preprint arXiv:2106.12614}, 2021.
+
+\bibitem[Wu17]{wu2017introduction}
+Jianxin Wu.
+\newblock Introduction to convolutional neural networks.
+\newblock {\em National Key Lab for Novel Software Technology. Nanjing University. China}, 5(23):495, 2017.
+
+\end{thebibliography}

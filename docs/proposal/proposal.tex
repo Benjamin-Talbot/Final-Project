@@ -1,0 +1,96 @@
+\documentclass{article}
+% \usepackage{graphicx} % Required for inserting images
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+
+\begin{document}
+% \sloppy
+
+\include{titlepage}
+\newpage
+
+\section{Introduction}
+
+Handwritten text is easy for humans to interpret. After learning how to read, the task of identifying characters becomes mundane. However, this task is difficult to implement on a computer, especially by trying to implement it directly. Since there is incredible variance in how characters are written by hand, even by the same person, it becomes impossible to code rules for a computer to follow in order to correctly classify written text.\\\\
+- Project will be on handwritten digits, then extended to reading an entire number (made up of multiple digits). (This would basically be testing the accuracy of the model.)\\
+- If time permits, will extend to alphabetic characters. The extension of this would be reading words. (Testing accuracy basically.)\\
+- Some of the programs found have a canvas, so could try to edit so that accepts multiple digits/characters, and this could be for inputting numbers/words.
+
+
+
+The subject of my final project is handwritten digit recognition. This is a rather basic and popular starting point for people who are diving into machine learning and neural networks for the first time, but there is a reason for this. The task of recognizing digits is simple and easy to understand. Imagine trying to implement facial recognition or court decisions instead. The more you can work with simple examples in a challenging environment (such as neural networks) the better. It allows you to focus on the important aspects of neural networks and to learn how they work.\\
+
+Despite having worked a bit on it during the labs, I will take this opportunity to look further into the topic and learn different methods of implementing solutions to the problem, including various types of neural networks. The type of neural network I will specifically be focusing on is convolutional neural networks, since this is the type that showed the best results in the preliminary research I did, meaning this is somewhat the "state of the art method" that I will be looking into.\\
+
+Not only is the subject of handwritten digit recognition rather simple, it is also educational because, as I mentioned before, it will allow me to more easily grasp the concepts of convolutional neural networks (and neural networks in general) since I don't have to worry too much about the details of the data and how to interpret it.\\
+
+In addition, handwritten digit recognition lends itself to project extensions. If time permits, I will change the focus of my project  from the narrower topic of handwritten digit recognition to the broader topic of handwritten character recognition. This will provide me with a new problem that we haven't dealt with in class. Despite this, the problem will be similar, which, again, provides a basis for me to work with and makes the process more intuitive and easier to understand. Again, this provides a better learning experience.\\
+
+Another area that I can extend my project to is recognizing multiple digits and characters. Instead of having a network that reads single digits or characters, I could extend it to interpret entire numbers and words. This number and word recognition feature would allow me to broaden the scope of my project, and it will provide me with a more diverse programming experience. My plan, if I get to this point, is to implement this feature first by representing a number or word as a collection of individual data from the dataset, meaning multiple images would constitute a number or word.\\
+
+Adding onto this, another feature that would be fun to add is an interactive canvas that you can draw on. This would let the user provide the input to the neural network, instead of the neural network only reading from prepared data. This could be implemented for the single digit or character recognition as a more simple application or for the number or word recognition as a more sophisticated application. Implementing an interactive app would be a step closer to real application of optical character recognition. It would also be an interesting programming problem. A few of the GitHub repositories I found have such an interactive application. Using the canvas, I could improve upon the previous plan of requiring numbers and characters to be a collection of multiple training images. A part of implementing the interactive application in this setting would be to parse the input into its individual digits or characters. This would add another layer of complexity to the problem, but also another area of exploration which is important in actual applications of optical character recognition.
+
+
+\section{Relevant Sources}
+
+Book (2015):
+    \url{http://neuralnetworksanddeeplearning.com/}\\
+Python 2.6/2.7 GitHub repository:
+    \url{https://github.com/mnielsen/neural-networks-and-deep-learning} \\
+Python 3.5.2 GitHub repository:
+    \url{https://github.com/MichalDanielDobrzanski/DeepLearningPython} \\
+\cite{albawi2017understanding}\\
+\cite{liu2020comparisions}\\
+\cite{o2015introduction}\\
+\cite{pashine2021handwritten}\\
+\cite{wu2017introduction}
+\cite{ahlawat2020improved}
+
+
+\section{GitHub Repository}
+Here is the link to the GitHub repository used for my final project:
+\quad \url{https://github.com/Benjamin-Talbot/Final-Project}
+
+\newpage
+\bibliographystyle{alpha}
+\bibliography{sources}
+
+\end{document}
+
+
+% @inproceedings{ghosh2017comparative,
+%   title={A comparative study on handwriting digit recognition using neural networks},
+%   author={Ghosh, Mahmoud M Abu and Maghari, Ashraf Y},
+%   booktitle={2017 international conference on promising electronic technologies (ICPET)},
+%   pages={77--81},
+%   year={2017},
+%   organization={IEEE}
+% }
+
+% @inproceedings{abdulrazzaq2019comparison,
+%   title={A comparison of three classification algorithms for handwritten digit recognition},
+%   author={Abdulrazzaq, Maiwan Bahjat and Saeed, Jwan Najeeb},
+%   booktitle={2019 International Conference on Advanced Science and Engineering (ICOASE)},
+%   pages={58--63},
+%   year={2019},
+%   organization={IEEE}
+% }
+
+% @article{ali2019efficient,
+%   title={An efficient and improved scheme for handwritten digit recognition based on convolutional neural network},
+%   author={Ali, Saqib and Shaukat, Zeeshan and Azeem, Muhammad and Sakhawat, Zareen and Mahmood, Tariq and ur Rehman, Khalil},
+%   journal={SN Applied Sciences},
+%   volume={1},
+%   pages={1--9},
+%   year={2019},
+%   publisher={Springer}
+% }
+
+% @article{aly2020deep,
+%   title={Deep convolutional self-organizing map network for robust handwritten digit recognition},
+%   author={Aly, Saleh and Almotairi, Sultan},
+%   journal={IEEE Access},
+%   volume={8},
+%   pages={107035--107045},
+%   year={2020},
+%   publisher={IEEE}
+% }
